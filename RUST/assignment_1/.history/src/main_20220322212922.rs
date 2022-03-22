@@ -1,3 +1,5 @@
+// use std::io;
+// use std::cmp::Ordering;
 use std::io::stdin;
 
 fn main() {
@@ -12,7 +14,7 @@ fn main() {
         match &s[..s.len() - 2] {
             "quit" => break,
             "help" => println!("help message"),
-            "test" => println!("test message"),
+            "list" => println!("test message"),
             _ => println!("unknow command"),
         }
     }

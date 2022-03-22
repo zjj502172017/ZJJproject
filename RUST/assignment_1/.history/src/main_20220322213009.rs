@@ -1,3 +1,5 @@
+// use std::io;
+// use std::cmp::Ordering;
 use std::io::stdin;
 
 fn main() {
@@ -6,7 +8,7 @@ fn main() {
     println!("2.test");
     println!("3.quit");
     loop {
-        println!("please enter a message:");
+        print!("please enter a message:");
         let mut s = String::new();
         stdin().read_line(&mut s).unwrap();
         match &s[..s.len() - 2] {
