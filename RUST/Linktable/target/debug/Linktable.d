@@ -1,0 +1,1 @@
+C:\Users\zjj\Desktop\vscode-environment\RUST\Linktable\target\debug\Linktable.exe: C:\Users\zjj\Desktop\vscode-environment\RUST\Linktable\src\linktable.rs C:\Users\zjj\Desktop\vscode-environment\RUST\Linktable\src\main.rs
